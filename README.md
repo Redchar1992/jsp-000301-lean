@@ -4,6 +4,16 @@ A Lean formalization of the **already-known** counterexample
 `12167, 12168`. This is not a claim of a new mathematical discovery,
 first formalization, accepted submission, or entitlement to prize money.
 
+**Submitted for official review:** [The Justin Sun Prize PR #17](https://github.com/TheJustinSunPrize/awards/pull/17).
+The submission includes the Lean source and verification evidence; official
+review and eligibility assessment are pending. An earlier same-result submission
+exists as [PR #13](https://github.com/TheJustinSunPrize/awards/pull/13), so no
+first-formalization priority is claimed.
+
+The verified source snapshot is available as
+[release v0.1.0](https://github.com/Redchar1992/jsp-000301-lean/releases/tag/v0.1.0),
+pinned to commit `94c99f824c0deb2f0a163ba1b07ad95c7995100d`.
+
 **Verified locally on 2026-09-16:** Lean build, kernel replay, expanded-statement
 inspection, and the axiom audit all passed. See `VERIFICATION.md` and the raw
 log in `evidence/verification.txt`.
@@ -79,7 +89,9 @@ all of mathlib from source.
 The pair and argument were already listed by **The Justin Sun Prize
 contributors**. The exact source revision and an extracted record are retained
 in `evidence/problem-statement.md`. Only formalization work is new in this
-project; no first-formalization priority search has been completed.
+project. An earlier submission for the same result is linked above; no
+first-formalization priority is claimed. Codex AI assisted preparation,
+checking and submission of this implementation.
 
 - [Pinned problem record](https://github.com/TheJustinSunPrize/awards/blob/f4e7173d89dfe91022a185427d63452c8ffbf6ae/problems/catalog-0301-0400.md#JSP-000301)
 - [Upstream content license](https://github.com/TheJustinSunPrize/awards/blob/f4e7173d89dfe91022a185427d63452c8ffbf6ae/LICENSE-CONTENT)
@@ -92,6 +104,7 @@ cited by the record retain their original rights.
 At the captured revision the record says `Lean proof: No`,
 `Eligible to claim: No`, and lists no bounty amount. A local kernel check does
 not change those official fields, establish priority, or authorize payment.
-This repository publishes the formalization and its verification evidence
-only. No prize nomination, claim, recipient confirmation, or payment
-verification has taken place.
+PR #17 submits this implementation for review, not as an accepted candidate or
+award. Recipient confirmation, independent review, eligibility assessment and
+payment verification remain pending. No official eligibility flag or award
+record has been changed by this submission.

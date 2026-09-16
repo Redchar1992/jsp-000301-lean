@@ -40,10 +40,19 @@ are in `evidence/verification.txt`; the separate axiom output is in
   In particular, it does not solve the separate Erdős problem 365.
 - `leanchecker` uses the same Lean kernel, not an independent implementation.
   Standard upstream mathlib build caches were used, not independently rebuilt.
-- No first-formalization priority claim has been checked or made.
-- Publication of this formalization does not constitute an official prize
-  submission. No recipient confirmation or payment verification has taken
-  place. The captured prize record lists no amount and marks eligibility as `No`.
+- An earlier same-result submission exists as
+  [PR #13](https://github.com/TheJustinSunPrize/awards/pull/13).
+  No first-formalization priority is claimed.
+- Submitted for official review through
+  [PR #17](https://github.com/TheJustinSunPrize/awards/pull/17) on 2026-09-16.
+  This is not an accepted candidate or award. Recipient confirmation,
+  independent review, eligibility assessment and payment verification remain
+  pending. The captured prize record lists no amount and marks eligibility as `No`.
+- [Release v0.1.0](https://github.com/Redchar1992/jsp-000301-lean/releases/tag/v0.1.0)
+  preserves the verified source snapshot at
+  `94c99f824c0deb2f0a163ba1b07ad95c7995100d`. Its GitHub archive is versioned,
+  not an independently preserved permanent archive; the recorded verification
+  predates submission and is not an independent review.
 
 ## Frozen references
 
