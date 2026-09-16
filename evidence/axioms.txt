@@ -1,0 +1,16 @@
+def JSP301.Powerful : ℕ → Prop :=
+fun n => 0 < n ∧ ∀ (p : ℕ), Nat.Prime p → p ∣ n → p ^ 2 ∣ n
+def JSP301.Claim : Prop :=
+∀ (n : ℕ), JSP301.Powerful n → JSP301.Powerful (n + 1) → IsSquare n ∨ IsSquare (n + 1)
+JSP301.counterexample : ∃ n, JSP301.Powerful n ∧ JSP301.Powerful (n + 1) ∧ ¬IsSquare n ∧ ¬IsSquare (n + 1)
+JSP301.jsp_000301_expanded :
+  ¬∀ (n : ℕ),
+      (0 < n ∧ ∀ (p : ℕ), Nat.Prime p → p ∣ n → p ^ 2 ∣ n) →
+        (0 < n + 1 ∧ ∀ (p : ℕ), Nat.Prime p → p ∣ n + 1 → p ^ 2 ∣ n + 1) → (∃ r, n = r * r) ∨ ∃ r, n + 1 = r * r
+'JSP301.powerful_12167' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP301.powerful_12168' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP301.not_isSquare_12167' depends on axioms: [propext, Quot.sound]
+'JSP301.not_isSquare_12168' depends on axioms: [propext, Quot.sound]
+'JSP301.counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP301.jsp_000301' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP301.jsp_000301_expanded' depends on axioms: [propext, Classical.choice, Quot.sound]
